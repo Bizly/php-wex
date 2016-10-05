@@ -1,6 +1,6 @@
 <?php
 
-namespace BizlyLabsWex;
+namespace BizlyLabs\Wex;
 
 include_once('Authorization.php');
 
