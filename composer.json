@@ -1,6 +1,5 @@
 {  
    "name":"bizly/php-wex",
-   "minimum-stability":"dev",
    "description":"Library to talk to wex SOAP services c2014.R2",
    "keywords":[  
       "Wex",
@@ -22,9 +21,10 @@
    "require":{  
 
    },
-   "autoload":{  
-      "files":[  
-         "lib/autoload.php"
-      ]
-   }
+   
+   "autoload": {
+        "psr-4": {
+            "php-wex\\": "/"
+        }
+    },
 }
