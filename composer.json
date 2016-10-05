@@ -3,7 +3,7 @@
     "description": "Library to talk to WEX SOAP services for php",
     "type": "lib",
     "require": {
-        "php": ">=5.5.9",
+        "php": ">=5.5.9"
     },
     "license": "MIT",
     "authors": [
