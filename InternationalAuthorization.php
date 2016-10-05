@@ -1,5 +1,7 @@
 <?php
 
+namespace BizlyLabs/Wex;
+
 include_once('Authorization.php');
 
 class InternationalAuthorization extends Authorization

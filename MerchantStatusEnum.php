@@ -1,5 +1,7 @@
 <?php
 
+namespace BizlyLabs/Wex;
+
 class MerchantStatusEnum
 {
     const __default = 'Active';

@@ -1,5 +1,7 @@
 <?php
 
+namespace BizlyLabs/Wex;
+
 class DisputeTransactionResponseCodeEnum
 {
     const __default = 'Failed';

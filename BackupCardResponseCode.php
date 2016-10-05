@@ -1,5 +1,7 @@
 <?php
 
+namespace BizlyLabs/Wex;
+
 class BackupCardResponseCode
 {
     const __default = 'Success';

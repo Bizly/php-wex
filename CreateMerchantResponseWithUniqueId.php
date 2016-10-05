@@ -1,5 +1,7 @@
 <?php
 
+namespace BizlyLabs/Wex;
+
 include_once('MerchantResponse.php');
 
 class CreateMerchantResponseWithUniqueId extends MerchantResponse

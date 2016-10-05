@@ -1,5 +1,7 @@
 <?php
 
+namespace BizlyLabs/Wex;
+
 class MerchantPaymentTypeEnum
 {
     const __default = 'MerchantChargedCard';

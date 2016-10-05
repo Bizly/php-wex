@@ -1,5 +1,7 @@
 <?php
 
+namespace BizlyLabs/Wex;
+
 class DeliveryMethodEnum
 {
     const __default = 'None';

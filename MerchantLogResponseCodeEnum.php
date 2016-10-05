@@ -1,5 +1,7 @@
 <?php
 
+namespace BizlyLabs/Wex;
+
 class MerchantLogResponseCodeEnum
 {
     const __default = 'Success';

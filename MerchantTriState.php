@@ -1,5 +1,7 @@
 <?php
 
+namespace BizlyLabs/Wex;
+
 class MerchantTriState
 {
     const __default = 'Off';

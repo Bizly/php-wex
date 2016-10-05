@@ -1,5 +1,7 @@
 <?php
 
+namespace BizlyLabs/Wex;
+
 include_once('MerchantPaymentMethodItem.php');
 
 class MerchantRequest extends MerchantPaymentMethodItem

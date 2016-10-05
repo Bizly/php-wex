@@ -1,5 +1,7 @@
 <?php
 
+namespace BizlyLabs/Wex;
+
 class NotificationMethodEnum
 {
     const __default = 'None';

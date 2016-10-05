@@ -1,5 +1,7 @@
 <?php
 
+namespace BizlyLabs/Wex;
+
 class MerchantLogStatusEnum
 {
     const __default = 'Closed';
