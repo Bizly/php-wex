@@ -1,30 +1,16 @@
-{  
-   "name":"bizly/php-wex",
-   "description":"Library to talk to wex SOAP services c2014.R2",
-   "keywords":[  
-      "Wex",
-      "Php",
-      "Library",
-      "Laravel"
-   ],
-   "type":"library",
-   "authors":[  
-      {  
-         "name":"Sairam Chilappagari",
-         "email":"sai@bizly.com",
-         "homepage":"http://chilzap.com/"
-      }
-   ],
-   "support":{  
-      "email":"tech@bizly.com"
-   },
-   "require": {
-        "php": ">=5.5.9"
-   },
-   
-   "autoload": {
-        "psr-4": {
-            "php-wex\\": "/"
-        }
+{
+    "name": "bizly/php-wex",
+    "description": "Library to talk to WEX SOAP services for php",
+    "type": "lib",
+    "require": {
+        "php": ">=5.5.9",
     },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sairam Chilappagari",
+            "email": "sairamc@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
 }
