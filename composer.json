@@ -1,0 +1,30 @@
+{  
+   "name":"bizly/php-wex",
+   "minimum-stability":"stable",
+   "description":"Library to talk to wex SOAP services c2014.R2",
+   "keywords":[  
+      "Wex",
+      "Php",
+      "Library",
+      "Laravel"
+   ],
+   "type":"library",
+   "authors":[  
+      {  
+         "name":"Sairam Chilappagari",
+         "email":"sai@bizly.com",
+         "homepage":"http://chilzap.com/"
+      }
+   ],
+   "support":{  
+      "email":"tech@bizly.com"
+   },
+   "require":{  
+
+   },
+   "autoload":{  
+      "files":[  
+         "lib/autoload.php"
+      ]
+   }
+}
