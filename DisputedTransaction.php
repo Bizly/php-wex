@@ -1,6 +1,6 @@
 <?php
 
-namespace BizlyLabs/Wex;
+namespace BizlyLabsWex;
 
 class DisputedTransaction
 {

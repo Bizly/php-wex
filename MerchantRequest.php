@@ -1,6 +1,6 @@
 <?php
 
-namespace BizlyLabs/Wex;
+namespace BizlyLabsWex;
 
 include_once('MerchantPaymentMethodItem.php');
 
