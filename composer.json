@@ -1,6 +1,6 @@
 {  
    "name":"bizly/php-wex",
-   "minimum-stability":"stable",
+   "minimum-stability":"master",
    "description":"Library to talk to wex SOAP services c2014.R2",
    "keywords":[  
       "Wex",
