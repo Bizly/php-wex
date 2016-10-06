@@ -7,7 +7,7 @@
     },
     "license": "MIT",
     "autoload": {
-        "psr-4": {"BizlyLab\\Wex\\": "/"}
+        "psr-4": {"BizlyLabs\\Wex\\": "/"}
     },
     "authors": [
         {
