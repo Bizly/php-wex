@@ -6,16 +6,15 @@
         "php": ">=5.5.9"
     },
     "license": "MIT",
+    "autoload": {
+        "psr-4": {"BizlyLab\\Wex\\": "/"}
+    },
     "authors": [
         {
             "name": "Sairam Chilappagari",
             "email": "sairamc@gmail.com"
         }
     ],
-    {
-        "autoload": {
-            "psr-4": {"BizlyLab\\Wex\\": "/"}
-        }
-    },
+    
     "minimum-stability": "dev"
 }
