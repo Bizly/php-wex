@@ -12,5 +12,10 @@
             "email": "sairamc@gmail.com"
         }
     ],
+    {
+        "autoload": {
+            "psr-4": {"BizlyLab\\Wex\\": "/"}
+        }
+    }
     "minimum-stability": "dev"
 }
