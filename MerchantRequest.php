@@ -195,32 +195,32 @@ class MerchantRequest extends MerchantPaymentMethodItem
      * @param string $MerchantUniqueId
      * @access public
      */
-    public function __construct($ACHAccountNumber, $ACHRoutingNumber, $RemitTemplate, $AchFileDetailRecordFormat, $BillingCurrency, $SingleUseAccountViewPIN, $MccCode, $PoolSource, $CardNumber, $PaymentGatewayId, $EnrollmentData, $CardProgram, $BankNumber, $CompanyNumber, $MerchantCode, $CustomerAccountNo, $Name, $Address, $Address2, $Address3, $Address4, $City, $StateTerritory, $Zip, $Attention, $Country, $EmailAddresses, $CcEmailAddresses, $Phone, $Fax, $TaxPayerId, $Note, $MerchantLevelSettingOverrides, $MerchantPaymentMethods, $MerchantUniqueId)
+    public function __construct($ACHAccountNumber, $ACHRoutingNumber, $RemitTemplate, $AchFileDetailRecordFormat, $BillingCurrency, $SingleUseAccountViewPIN, $MccCode, $PoolSource, $CardNumber, $PaymentGatewayId, $EnrollmentData, $CardProgram, $BankNumber, $CompanyNumber, $MerchantCode, $CustomerAccountNo, $Name, $Address, $Address2, $Address3, $Address4, $City, $StateTerritory, $Zip, $Attention, $Country, $EmailAddresses, $CcEmailAddresses, $Phone, $Fax, $TaxPayerId, $Note, $MerchantLevelSettingOverrides, $MerchantPaymentMethods, $MerchantUniqueId, $UseSingleUseAccounts)
     {
-      parent::__construct($ACHAccountNumber, $ACHRoutingNumber, $RemitTemplate, $AchFileDetailRecordFormat, $BillingCurrency, $SingleUseAccountViewPIN, $MccCode, $PoolSource, $CardNumber, $PaymentGatewayId, $EnrollmentData, $CardProgram);
-      $this->BankNumber = $BankNumber;
-      $this->CompanyNumber = $CompanyNumber;
-      $this->MerchantCode = $MerchantCode;
-      $this->CustomerAccountNo = $CustomerAccountNo;
-      $this->Name = $Name;
-      $this->Address = $Address;
-      $this->Address2 = $Address2;
-      $this->Address3 = $Address3;
-      $this->Address4 = $Address4;
-      $this->City = $City;
-      $this->StateTerritory = $StateTerritory;
-      $this->Zip = $Zip;
-      $this->Attention = $Attention;
-      $this->Country = $Country;
-      $this->EmailAddresses = $EmailAddresses;
-      $this->CcEmailAddresses = $CcEmailAddresses;
-      $this->Phone = $Phone;
-      $this->Fax = $Fax;
-      $this->TaxPayerId = $TaxPayerId;
-      $this->Note = $Note;
-      $this->MerchantLevelSettingOverrides = $MerchantLevelSettingOverrides;
-      $this->MerchantPaymentMethods = $MerchantPaymentMethods;
-      $this->MerchantUniqueId = $MerchantUniqueId;
+        parent::__construct($ACHAccountNumber, $ACHRoutingNumber, $RemitTemplate, $AchFileDetailRecordFormat, $BillingCurrency, $SingleUseAccountViewPIN, $MccCode, $PoolSource, $CardNumber, $PaymentGatewayId, $EnrollmentData, $CardProgram, $UseSingleUseAccounts);
+        $this->BankNumber = $BankNumber;
+        $this->CompanyNumber = $CompanyNumber;
+        $this->MerchantCode = $MerchantCode;
+        $this->CustomerAccountNo = $CustomerAccountNo;
+        $this->Name = $Name;
+        $this->Address = $Address;
+        $this->Address2 = $Address2;
+        $this->Address3 = $Address3;
+        $this->Address4 = $Address4;
+        $this->City = $City;
+        $this->StateTerritory = $StateTerritory;
+        $this->Zip = $Zip;
+        $this->Attention = $Attention;
+        $this->Country = $Country;
+        $this->EmailAddresses = $EmailAddresses;
+        $this->CcEmailAddresses = $CcEmailAddresses;
+        $this->Phone = $Phone;
+        $this->Fax = $Fax;
+        $this->TaxPayerId = $TaxPayerId;
+        $this->Note = $Note;
+        $this->MerchantLevelSettingOverrides = $MerchantLevelSettingOverrides;
+        $this->MerchantPaymentMethods = $MerchantPaymentMethods;
+        $this->MerchantUniqueId = $MerchantUniqueId;
     }
 
 }
