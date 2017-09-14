@@ -158,20 +158,20 @@ class MerchantPaymentMethodItem
      * @param string $CardProgram
      * @access public
      */
-    public function __construct($ACHAccountNumber, $ACHRoutingNumber, $RemitTemplate, $AchFileDetailRecordFormat, $BillingCurrency, $SingleUseAccountViewPIN, $MccCode, $PoolSource, $CardNumber, $PaymentGatewayId, $EnrollmentData, $CardProgram)
+    public function __construct($ACHAccountNumber, $ACHRoutingNumber, $RemitTemplate, $AchFileDetailRecordFormat, $BillingCurrency, $SingleUseAccountViewPIN, $MccCode, $PoolSource, $CardNumber, $PaymentGatewayId, $EnrollmentData, $CardProgram, $UseSingleUseAccounts)
     {
-      $this->ACHAccountNumber = $ACHAccountNumber;
-      $this->ACHRoutingNumber = $ACHRoutingNumber;
-      $this->RemitTemplate = $RemitTemplate;
-      $this->AchFileDetailRecordFormat = $AchFileDetailRecordFormat;
-      $this->BillingCurrency = $BillingCurrency;
-      $this->SingleUseAccountViewPIN = $SingleUseAccountViewPIN;
-      $this->MccCode = $MccCode;
-      $this->PoolSource = $PoolSource;
-      $this->CardNumber = $CardNumber;
-      $this->PaymentGatewayId = $PaymentGatewayId;
-      $this->EnrollmentData = $EnrollmentData;
-      $this->CardProgram = $CardProgram;
+        $this->ACHAccountNumber = $ACHAccountNumber;
+        $this->ACHRoutingNumber = $ACHRoutingNumber;
+        $this->RemitTemplate = $RemitTemplate;
+        $this->AchFileDetailRecordFormat = $AchFileDetailRecordFormat;
+        $this->BillingCurrency = $BillingCurrency;
+        $this->SingleUseAccountViewPIN = $SingleUseAccountViewPIN;
+        $this->MccCode = $MccCode;
+        $this->PoolSource = $PoolSource;
+        $this->CardNumber = $CardNumber;
+        $this->PaymentGatewayId = $PaymentGatewayId;
+        $this->EnrollmentData = $EnrollmentData;
+        $this->CardProgram = $CardProgram;
+        $this->UseSingleUseAccounts = $UseSingleUseAccounts;
     }
-
 }
